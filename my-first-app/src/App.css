@@ -1,0 +1,89 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+
+  
+  text-align: center;
+}
+
+.background{
+  /* background-color: dodgerblue; */
+  width: 100vw;
+  padding-top: 10vh;
+  padding-bottom: 10vh; 
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.price-card{
+    background-color: white;
+    padding-right: 2rem;
+    padding-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    
+    font-size: large;
+    margin-left: 5%;
+    margin-top: 1rem;
+    
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    transition: 1s;
+  
+
+}
+/* .heading-permonth{
+  font-size: small;
+  
+} */
+.hr{
+  width: 100%;
+  
+}
+.category{
+  opacity: 50%;
+
+}
+.price-benfits{
+  font-size:large;
+  font-weight: normal;
+  list-style-type: "✔";
+  line-height: 40px;
+  
+  
+}
+.price-benfits li{
+  text-align:left;
+  padding-left: 5px;
+}
+.features-not{
+  list-style-type: "✖";
+  margin-inline: -30px;
+  opacity: 50%;
+}
+.features-not li{
+  text-align:left;
+  padding-left: 10px;
+}
+.button{
+  font-weight:bold;
+  color: white;
+  font-size: medium;
+  width: 100%;
+  background-color: rgb(58, 155, 252);
+  border-top-right-radius: 2em;
+  border-bottom-right-radius:2em ;
+  border-top-left-radius: 2em;
+  border-bottom-left-radius:2em ;
+  
+}
+.price-card:hover{
+     position: relative;
+     top: -10px;
+     transition: 1s;
+     
+}
